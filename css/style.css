@@ -201,7 +201,11 @@ body {
 
 .header__btn-empty:hover {
   background-color: transparent;
-  color: #0048E4;
+  color: #346bd8;
+}
+
+.header__btn-empty:active {
+  color: #2DD4BF;
 }
 
 /* hero */
