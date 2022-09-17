@@ -1,0 +1,344 @@
+@media (max-width: 1200px) {
+  /* hero */
+  .hero__container {
+    background-size: 600px;
+  }
+
+  .hero__tblock {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* glob */
+
+  .headline {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .menu__burger {
+    margin-bottom: 22px;
+    align-self: flex-end;
+  }
+
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    padding: 28px 0;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 440px;
+    background-color: #0048A8;
+    transition: transform .3s ease;
+    transform: translateX(-101%);
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu__container {
+    flex-direction: column;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .menu__burger {
+    display: block;
+  }
+
+  .menu__list {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .menu__item {
+    margin-bottom: 56px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+  }
+
+  .menu.is-active {
+    display: block;
+    transform: none;
+  }
+
+  /* header */
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__btn {
+    margin-right: 30px;
+  }
+
+  /* hero */
+  .hero__container {
+    background-image: none;
+  }
+
+  /* preferences */
+
+  .preferences__block:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  /* vchat */
+
+  .vchat__pic {
+    height: 320px;
+  }
+
+  .vchat__text {
+    margin-left: 0;
+  }
+
+  /* chat */
+
+  .chat__pic {
+    margin-left: 0;
+    height: 380px;
+  }
+
+  /* direct */
+
+  .direct__pic {
+    height: 380px;
+  }
+
+  .direct__text {
+    margin-left: 0;
+  }
+
+  .direct__desc {
+    margin-bottom: 30px;
+  }
+
+  .direct__numbers {
+    font-size: 30px;
+  }
+
+  /* customer */
+
+  .customer__block {
+    justify-content: space-between;
+  }
+
+  .customer__right,
+  .customer__left {
+    max-width: 320px;
+  }
+
+  /* start */
+
+  .start__headline {
+    font-size: 38px;
+  }
+
+  /* footer */
+
+  .footer__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* glob */
+
+  .headline {
+    font-size: 27px;
+  }
+
+  /* hero */
+
+  .hero__headliner {
+    font-size: 34px;
+    line-height: 130%;
+  }
+
+  .hero__tblock {
+    padding-top: 25px;
+  }
+
+  .hero__btn {
+    margin-bottom: 50px;
+  }
+
+  .hero__numbers {
+    font-size: 24px;
+  }
+
+  /* preferences */
+
+  .preferences__headline {
+    font-size: 32px;
+  }
+
+  /* vchat */
+
+  .vchat__pic {
+    height: 360px;
+    margin-bottom: 30px;
+  }
+
+  .chat__row {
+    flex-direction: column-reverse;
+  }
+
+  .chat__pic {
+    height: 480px;
+  }
+
+  /* direct */
+
+  .direct__pic {
+    height: 510px;
+  }
+
+  /* customer */
+
+  .customer__block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customer__left {
+    margin-bottom: 40px;
+  }
+
+  /* start */
+
+  .start__headline {
+    font-size: 30px;
+    line-height: 130%;
+    max-width: 500px;
+  }
+
+  /* footer */
+
+  .footer__top {
+    flex-direction: column;
+  }
+
+  .nav__list-footer {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .footer__nav .nav__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+
+  .footer__tm {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  /* glob */
+
+  .menu {
+    height: 510px;
+  }
+
+  .menu__item-login {
+    display: block;
+  }
+
+  .header__btn-dn {
+    display: none;
+  }
+
+  .header__btn-empty {
+    color: #FFF;
+  }
+
+  /* header */
+
+  .header__btn-second {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .header__btn {
+    margin-right: 10px;
+  }
+
+  /* hero */
+
+  .hero__avatars {
+    width: 100px;
+  }
+
+  .hero__count {
+    margin-right: 20px;
+  }
+
+  /* vchat */
+
+  .vchat__pic {
+    height: 300px;
+  }
+
+  /* chat */
+
+  .chat__pic {
+    height: 300px;
+  }
+
+  /* direct */
+
+  .direct__pic {
+    height: 300px;
+  }
+
+  .direct__count {
+    margin-right: 15px;
+  }
+
+  .direct__numbers {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .direct__descr {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 438px) {
+  .hero__avatars {
+    display: none;
+  }
+
+  .hero__count {
+    margin-right: 23px;
+  }
+}
